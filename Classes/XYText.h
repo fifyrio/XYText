@@ -11,4 +11,10 @@
 
 @interface XYText : UIView
 
+@property (nonatomic, strong) UIFont *xy_font;
+
+@property (nonatomic, strong) UIColor *xy_textColor;
+
+- (void)xy_setAttributedString:(NSAttributedString *)attributedString;
+
 @end

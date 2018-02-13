@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E80D994203318A200719800 /* cahan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E80D990203318A200719800 /* cahan.gif */; };
+		4E80D995203318A200719800 /* haha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E80D991203318A200719800 /* haha@2x.png */; };
+		4E80D996203318A200719800 /* haqian.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E80D992203318A200719800 /* haqian.gif */; };
+		4E80D997203318A200719800 /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E80D993203318A200719800 /* haha.gif */; };
+		4E80D99A2033228E00719800 /* XYAttributedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D9992033228E00719800 /* XYAttributedImage.m */; };
+		4E80D99D2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D99C2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.m */; };
+		4E80D9A02033383200719800 /* NSMutableAttributedString+XYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D99F2033383200719800 /* NSMutableAttributedString+XYText.m */; };
+		4E80D9A6203339F100719800 /* UIImageView+XYGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D9A5203339F100719800 /* UIImageView+XYGIF.m */; };
+		4E80D9A920333A9E00719800 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D9A820333A9E00719800 /* UIView+frameAdjust.m */; };
 		CC03DF4D1D11323F00E3660A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4C1D11323F00E3660A /* main.m */; };
 		CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4F1D11323F00E3660A /* AppDelegate.m */; };
 		CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DF571D11323F00E3660A /* Assets.xcassets */; };
@@ -28,6 +37,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E80D990203318A200719800 /* cahan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cahan.gif; sourceTree = "<group>"; };
+		4E80D991203318A200719800 /* haha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "haha@2x.png"; sourceTree = "<group>"; };
+		4E80D992203318A200719800 /* haqian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haqian.gif; sourceTree = "<group>"; };
+		4E80D993203318A200719800 /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
+		4E80D9982033228E00719800 /* XYAttributedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAttributedImage.h; sourceTree = "<group>"; };
+		4E80D9992033228E00719800 /* XYAttributedImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAttributedImage.m; sourceTree = "<group>"; };
+		4E80D99B2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+XYAttributedImage.h"; sourceTree = "<group>"; };
+		4E80D99C2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+XYAttributedImage.m"; sourceTree = "<group>"; };
+		4E80D99E2033383200719800 /* NSMutableAttributedString+XYText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+XYText.h"; sourceTree = "<group>"; };
+		4E80D99F2033383200719800 /* NSMutableAttributedString+XYText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+XYText.m"; sourceTree = "<group>"; };
+		4E80D9A4203339F100719800 /* UIImageView+XYGIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XYGIF.h"; sourceTree = "<group>"; };
+		4E80D9A5203339F100719800 /* UIImageView+XYGIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XYGIF.m"; sourceTree = "<group>"; };
+		4E80D9A720333A9E00719800 /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		4E80D9A820333A9E00719800 /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
 		CC03DF481D11323F00E3660A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC03DF4C1D11323F00E3660A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC03DF4E1D11323F00E3660A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E80D98F203318A200719800 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4E80D990203318A200719800 /* cahan.gif */,
+				4E80D991203318A200719800 /* haha@2x.png */,
+				4E80D992203318A200719800 /* haqian.gif */,
+				4E80D993203318A200719800 /* haha.gif */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		CC03DF3F1D11323F00E3660A = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +139,7 @@
 		CC03DF4B1D11323F00E3660A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E80D98F203318A200719800 /* resource */,
 				CC03DF4C1D11323F00E3660A /* main.m */,
 				CC93360B203186A1003BB19D /* PrefixHeader.pch */,
 			);
@@ -163,6 +198,16 @@
 			children = (
 				CC93360420316CD5003BB19D /* XYText.h */,
 				CC93360520316CD5003BB19D /* XYText.m */,
+				4E80D9982033228E00719800 /* XYAttributedImage.h */,
+				4E80D9992033228E00719800 /* XYAttributedImage.m */,
+				4E80D9A720333A9E00719800 /* UIView+frameAdjust.h */,
+				4E80D9A820333A9E00719800 /* UIView+frameAdjust.m */,
+				4E80D99E2033383200719800 /* NSMutableAttributedString+XYText.h */,
+				4E80D99F2033383200719800 /* NSMutableAttributedString+XYText.m */,
+				4E80D99B2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.h */,
+				4E80D99C2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.m */,
+				4E80D9A4203339F100719800 /* UIImageView+XYGIF.h */,
+				4E80D9A5203339F100719800 /* UIImageView+XYGIF.m */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -225,10 +270,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E80D996203318A200719800 /* haqian.gif in Resources */,
+				4E80D995203318A200719800 /* haha@2x.png in Resources */,
 				CC9335FE203130D7003BB19D /* weibo_7.json in Resources */,
 				CC9335FA203130D7003BB19D /* weibo_3.json in Resources */,
 				CC9335FD203130D7003BB19D /* weibo_6.json in Resources */,
 				CC9335F7203130D7003BB19D /* weibo_0.json in Resources */,
+				4E80D994203318A200719800 /* cahan.gif in Resources */,
+				4E80D997203318A200719800 /* haha.gif in Resources */,
 				CC9335F8203130D7003BB19D /* weibo_1.json in Resources */,
 				CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */,
 				CC1167361D11361300F81E14 /* ViewController.xib in Resources */,
@@ -246,11 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E80D9A6203339F100719800 /* UIImageView+XYGIF.m in Sources */,
+				4E80D9A920333A9E00719800 /* UIView+frameAdjust.m in Sources */,
+				4E80D9A02033383200719800 /* NSMutableAttributedString+XYText.m in Sources */,
 				CC9335ED20312E78003BB19D /* XYSelfTestTool.m in Sources */,
 				CC1167351D11361300F81E14 /* ViewController.m in Sources */,
+				4E80D99A2033228E00719800 /* XYAttributedImage.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
 				CC9335E820312E44003BB19D /* YYFPSLabel.m in Sources */,
 				CC9335E920312E44003BB19D /* YYWeakProxy.m in Sources */,
+				4E80D99D2033298D00719800 /* NSMutableAttributedString+XYAttributedImage.m in Sources */,
 				CC03DF4D1D11323F00E3660A /* main.m in Sources */,
 				CC93360620316CD5003BB19D /* XYText.m in Sources */,
 			);
