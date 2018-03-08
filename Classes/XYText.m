@@ -188,8 +188,6 @@
                 UIImage *image = [UIImage imageNamed:imageData.imageName];
                 CGContextDrawImage(context, imageFrame, image.CGImage);
             }
-            
-            
         }
     }
 }

@@ -34,6 +34,8 @@
 		CC9335FD203130D7003BB19D /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F5203130D7003BB19D /* weibo_6.json */; };
 		CC9335FE203130D7003BB19D /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9335F6203130D7003BB19D /* weibo_7.json */; };
 		CC93360620316CD5003BB19D /* XYText.m in Sources */ = {isa = PBXBuildFile; fileRef = CC93360520316CD5003BB19D /* XYText.m */; };
+		CCA502A6204CF2A600EE718E /* XYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA502A5204CF2A600EE718E /* XYLabel.m */; };
+		CCA502A9204CF33E00EE718E /* XYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA502A8204CF33E00EE718E /* XYTextLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,10 @@
 		CC93360420316CD5003BB19D /* XYText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYText.h; sourceTree = "<group>"; };
 		CC93360520316CD5003BB19D /* XYText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYText.m; sourceTree = "<group>"; };
 		CC93360B203186A1003BB19D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CCA502A4204CF2A600EE718E /* XYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLabel.h; sourceTree = "<group>"; };
+		CCA502A5204CF2A600EE718E /* XYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLabel.m; sourceTree = "<group>"; };
+		CCA502A7204CF33E00EE718E /* XYTextLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYTextLayout.h; sourceTree = "<group>"; };
+		CCA502A8204CF33E00EE718E /* XYTextLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYTextLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,8 @@
 		CC93360320316CC8003BB19D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CCA502A2204CF2A600EE718E /* Category */,
+				CCA502A3204CF2A600EE718E /* Core */,
 				CC93360420316CD5003BB19D /* XYText.h */,
 				CC93360520316CD5003BB19D /* XYText.m */,
 				4E80D9982033228E00719800 /* XYAttributedImage.h */,
@@ -211,6 +219,24 @@
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		CCA502A2204CF2A600EE718E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CCA502A3204CF2A600EE718E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CCA502A4204CF2A600EE718E /* XYLabel.h */,
+				CCA502A5204CF2A600EE718E /* XYLabel.m */,
+				CCA502A7204CF33E00EE718E /* XYTextLayout.h */,
+				CCA502A8204CF33E00EE718E /* XYTextLayout.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +325,8 @@
 				4E80D9A920333A9E00719800 /* UIView+frameAdjust.m in Sources */,
 				4E80D9A02033383200719800 /* NSMutableAttributedString+XYText.m in Sources */,
 				CC9335ED20312E78003BB19D /* XYSelfTestTool.m in Sources */,
+				CCA502A6204CF2A600EE718E /* XYLabel.m in Sources */,
+				CCA502A9204CF33E00EE718E /* XYTextLayout.m in Sources */,
 				CC1167351D11361300F81E14 /* ViewController.m in Sources */,
 				4E80D99A2033228E00719800 /* XYAttributedImage.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
